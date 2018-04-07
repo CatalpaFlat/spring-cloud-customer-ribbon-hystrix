@@ -1,0 +1,13 @@
+server:
+  port: 8887
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8881/eureka/
+
+spring:
+  application:
+    name: spring-cloud-customer-ribbon-hystrix-demo
